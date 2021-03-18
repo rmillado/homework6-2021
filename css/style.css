@@ -14,8 +14,8 @@ header{
   border-bottom: 3px solid #50C7C7;
   /*Your  code here again.*/
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  flex-direction: column; 
+  align-items: center;
 }
 
 /*Requirement 3*/
@@ -35,9 +35,10 @@ header{
     /*Don't forget to vertically and horizontally 
     align the element*/
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 /*Requirement 5*/
@@ -84,9 +85,10 @@ header{
 /*Requirement 9*/
 #logo{
    /*Your code here.*/
+   animation-name: logo_grow;
   animation-duration: 15s;
   overflow: hidden;
-  animation-name: logo_grow;
+  
   animation-fill-mode: forwards;
 }
 
