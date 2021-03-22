@@ -134,7 +134,6 @@ header{
     /*Your code here again.*/  
     display: flex;
     flex-direction: row;
-    justify-content: right;
   }
 
   /*Requirement 11*/
