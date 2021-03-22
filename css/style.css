@@ -134,6 +134,7 @@ header{
     /*Your code here again.*/  
     display: flex;
     flex-direction: row;
+    justify-content: right;
   }
 
   /*Requirement 11*/
@@ -147,18 +148,44 @@ header{
 /*Requirement 12*/
 /*Add media query to handle reduced-motion*/
 /*Your code here again.*/ 
-
+@media screen and (prefers-reduced-motion: reduce){
+  .logo{
+    animation: none;
+  }
+}
 
 
 @media print { 
 
   /*Requirement 13*/
+  body{
+    background-image: none;
+  }
   /*Requirement 14*/
+  nav{
+    width: 100%;
+  }
   /*Requirement 15*/
-  /*Requirement 16*/
-  /*Requirement 17*/
-  /*Requirement 18*/
- 
-}
+  .nav_links{
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .price{
+    flex-direction: row;
+    align-items:flex-end;
 
+  }
+  /*Requirement 17*/
+  .package {
+    border: 2px solid #45ADAD;
+    flex-basis: 200px;
+  }
+  /*Requirement 18*/
+  h2#gallery{
+    display:none;
+  }
+  div.gallery{
+    display:none;
+  }
+}
 
