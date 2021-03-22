@@ -14,7 +14,8 @@ header{
   border-bottom: 3px solid #50C7C7;
   /*Your  code here again.*/
   display: flex;
-  flex-direction: row; 
+  flex-direction: column; 
+  justify-content:center;
   align-items: center;
 }
 
@@ -22,7 +23,7 @@ header{
 .nav_links{
   /*Your code here again.*/
   display: flex;
-  flex-direction: row; 
+  flex-direction: column; 
 }
 
 
@@ -158,4 +159,3 @@ header{
   /*Requirement 18*/
  
 }
-
