@@ -125,13 +125,15 @@ header{
   header{
     /*Your code here again.*/  
     display: flex;
-    justify-content: left;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   /*Requirement 10*/
   .nav_links{
     /*Your code here again.*/  
     display: flex;
+    flex-direction: row;
     justify-content: right;
   }
 
@@ -159,3 +161,5 @@ header{
   /*Requirement 18*/
  
 }
+
+
